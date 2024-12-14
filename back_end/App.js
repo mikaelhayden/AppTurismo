@@ -1,4 +1,3 @@
-App.js
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -7,9 +6,10 @@ var logger = require('morgan');
 var cors = require('cors');
 
 
-var clientesRouter = require('./routes/clientes');
+var clientesRouter = require('./routes/clientesRoute.js');
 
 var app = express();
+// app.js (backend ou frontend)
 
 // CORS
 app.use(cors({origin:'http://localhost:5000'}));

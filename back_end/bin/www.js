@@ -30,6 +30,7 @@ server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
+app.console("Conectado!")
 /**
  * Normalize a port into a number, string, or false.
  */

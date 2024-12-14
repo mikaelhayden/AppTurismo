@@ -1,7 +1,6 @@
-index.js
 var express = require('express');
 var router = express.Router();
-var db = require('../db')
+var db = require('./db.js')
 
 /* GET index. */ 
 router.get('/', async (req, res, next) => {

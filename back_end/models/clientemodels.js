@@ -1,7 +1,6 @@
-model
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1/reservas', { useNewUrlParser: true});
+mongoose.connect('mongodb+srv://clashoncv7:MtBA9oIugSfQyTEm@cluster0.pzyuj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { });
 
 var Schema = mongoose.Schema;
 
