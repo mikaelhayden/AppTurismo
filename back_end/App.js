@@ -6,6 +6,7 @@ var logger = require('morgan');
 var cors = require('cors');
 
 var clientesRouter = require('./routes/clientesRoute');
+var PontosRouter =  require('./routes/pontosRoutes.js');
 
 var app = express();
 
@@ -42,3 +43,11 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+/*
+
+Para os pontos turísticos
+
+app - rota nova
+control - novo
+model - novo*/
